@@ -1,0 +1,14 @@
+    <div class="row">
+     
+     <h5>Welcome {{userName}}</h5>
+<div class="col-md-offset-10" style="margin-bottom:10px">
+<a href ng-click="logout()">Logout</a>
+</div>
+</div>
+<h3>Video Box</h3>
+   <div class="search-wrapper col-md-offset-8" style="margin-bottom:5px">
+        <div class="search-box">
+            <input type="text" class="form-control" ng-model="searchText" ng-change="refreshData()"" placeholder="Search...">
+        </div>
+    </div>
+<div ui-grid="gridOptions" ui-grid-pagination></div>

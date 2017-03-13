@@ -1,0 +1,34 @@
+<!doctype html>
+<html ng-app="testApp">
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+     <link rel="stylesheet" href="/scripts/ui-grid.css" type="text/css" />
+
+     <script src="/scripts/angular.min.js"></script>
+    <script src="/scripts/angular-resource.min.js"></script>
+    <script src="/scripts/angular-route.min.js"></script>
+     <script src="/scripts/angular-local-storage.min.js"></script>
+      <script src="/scripts/ui-grid.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="row">
+    <div class="container">
+      <div class="row">
+      <div ng-view></div>
+      </div>
+    </div>
+  </div>
+   <script src="app.js"></script>
+   <script src="app.factory.js"></script>
+ <script src="pages/login.controller.js"></script>
+ <script src="pages/video.controller.js"></script>
+</body>
+
+</html>
